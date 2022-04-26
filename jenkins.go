@@ -32,7 +32,7 @@ func NewForConfig(c *restclient.Config) (*Clientset, error) {
 		return nil, err
 	}
 
-	return &Clientset{}, nil
+	return &cs, nil
 }
 
 // NewForConfigOrDie --
